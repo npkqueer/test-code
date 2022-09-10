@@ -13,7 +13,7 @@ from astropy.coordinates import Angle
 from astropy.table import Table
 from tqdm import tqdm
 from scipy.stats import f
-
+# Added to check how this works!
 def mjd_to_date(mjd):
     mjd = mjd + 2400000.5
     jd = mjd + 0.5
